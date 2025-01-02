@@ -1,12 +1,12 @@
 import s from "./Header.module.css";
-import { ReactComponent as Logo } from "../../assets/logo.svg";
+// import { ReactComponent as Logo } from "../../assets/logo.svg";
 
 const Header = () => {
   return (
     <>
       <header className={s.pageHeader}>
         <a className={s.logoLink} href="#">
-          <Logo />
+          {/* <Logo /> */}
         </a>
 
         {/* Header navigation */}

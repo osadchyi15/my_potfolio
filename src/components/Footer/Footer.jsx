@@ -10,6 +10,7 @@ const Footer = () => {
             className={s.socialNetworksLink}
             href="https://github.com/osadchyi15"
             target="_blank"
+            title="My GitHub"
           >
             <FiGithub className={s.socialNetworksImage} />
           </a>
@@ -19,6 +20,7 @@ const Footer = () => {
             className={s.socialNetworksLink}
             href="https://www.linkedin.com/in/ievgen-osadchyi"
             target="_blank"
+            title="LinkedIn Profile"
           >
             <FiLinkedin className={s.socialNetworksImage} />
           </a>
@@ -28,6 +30,7 @@ const Footer = () => {
             className={s.socialNetworksLink}
             href="mailto:osadchyi15@gmail.com"
             target="_blank"
+            title="Send me email"
           >
             <FiMail className={s.socialNetworksImage} />
           </a>
