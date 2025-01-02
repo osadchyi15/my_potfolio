@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Corvetta";
+  src: url("Corvetta.ttf");
+  src: local("Corvetta personal use") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BubblegumSans";
+  src: url("BubblegumSans-Regular.ttf");
+  src: local("Bubblegum Sans") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

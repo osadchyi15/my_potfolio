@@ -1,0 +1,39 @@
+.pageFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.socialNetworksList {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialNetworksImage {
+  width: 32px;
+  height: 32px;
+  color: #ec620c;
+}
+
+.footerLogoDiv {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.creative {
+  text-align: left;
+  font-family: Corvetta, serif;
+  font-size: 24px;
+}
+
+.developer {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+}

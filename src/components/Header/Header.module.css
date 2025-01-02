@@ -1,0 +1,48 @@
+.pageHeader {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: #0d2f3f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.navigationList {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+}
+
+.navigation a {
+  color: #0d2f3f;
+  transition: 1000ms;
+}
+
+.navigation a:hover {
+  color: #286f6c;
+  text-decoration: underline;
+}
+
+.downloadCvBtn {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px #f8f7f1 solid;
+  background-color: #286f6c;
+  color: #f8f7f1;
+  transition: 1000ms;
+}
+
+.downloadCvBtn:hover {
+  background-color: transparent;
+  border: 1px #286f6c solid;
+  color: #286f6c;
+}
+
+.logoLink {
+  fill: red;
+}
