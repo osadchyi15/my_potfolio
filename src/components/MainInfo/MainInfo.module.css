@@ -1,4 +1,4 @@
-.aboutMe {
+.main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -7,27 +7,28 @@
   width: 100%;
 }
 
-.aboutMeLeft {
+.mainLeft {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
+  padding: 40px 0;
 }
 
-.aboutMeLeftIAm {
+.mainLeftIAm {
   font-family: Bubblegum Sans, serif;
   font-size: 40px;
   text-align: left;
 }
 
-.aboutMeLeftIO {
+.mainLeftIO {
   font-size: 28px;
   font-weight: 600;
   text-align: left;
   color: #ec620c;
 }
 
-.aboutMeLeftExperience {
+.mainLeftExperience {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -35,32 +36,33 @@
   align-items: center;
 }
 
-.aboutMeLeftNumber {
+.mainLeftNumber {
   font-size: 36px;
   font-weight: 600;
 }
 
-.aboutMeLeftYears {
+.mainLeftYears {
   text-align: left;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.aboutMeRight {
+.mainRight {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: end;
   height: 100%;
+  padding: 40px 0;
 }
 
-.aboutMeRightText {
+.mainRightText {
   text-align: right;
   font-weight: 600;
   font-size: 16px;
 }
 
-.aboutMeRightSkills {
+.mainRightSkills {
   max-width: 200px;
   display: flex;
   flex-direction: row;
@@ -69,13 +71,13 @@
   flex-wrap: wrap;
 }
 
-.aboutMeRightSkillsOrange {
+.mainRightSkillsOrange {
   width: 30px;
   height: 30px;
   color: #ec620c;
 }
 
-.aboutMeRightSkillsBlue {
+.mainRightSkillsBlue {
   width: 30px;
   height: 30px;
   color: #0d2f3f;

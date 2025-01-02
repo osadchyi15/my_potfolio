@@ -8,4 +8,11 @@ export default defineConfig({
     react(),
     svgr(), // Додаємо плагін для SVG
   ],
+  css: {
+    preprocessorOptions: {
+      postcss: {
+        plugins: [],
+      },
+    },
+  },
 });

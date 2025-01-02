@@ -21,7 +21,6 @@ body {
   flex-direction: column;
   margin: 0 auto;
   padding: 12px 0;
-  overflow: hidden;
 }
 
 * {
@@ -45,4 +44,8 @@ body {
 main {
   flex: 1;
   height: auto;
+}
+
+.swiper {
+  width: 530px;
 }
